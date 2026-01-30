@@ -20,3 +20,9 @@ else:
     print("Accesi denegado")
 
 ##################################
+nombre_usuario = input("Ingrese tu nombre: ")
+edad_usuario = int(input("Ingrese su edad: "))
+if edad_usuario >= 18:
+    print(f"{nombre_usuario}, sos mayor de edad.")
+else:
+    print(f"{nombre_usuario}, sos menor de edad.")
