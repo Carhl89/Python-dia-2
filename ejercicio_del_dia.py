@@ -4,7 +4,7 @@ edad = int(input("Ingrese su edad: "))
 if edad <12:
     print("Niño")
 elif edad <18:
-    print("Adolesente")
+    print("Adolecente")
 else:
     print("Adulto")
 
@@ -18,3 +18,5 @@ if Usuario == "admin" and Clave == "1234":
     print("Acceso permitido")
 else:
     print("Accesi denegado")
+
+##################################
